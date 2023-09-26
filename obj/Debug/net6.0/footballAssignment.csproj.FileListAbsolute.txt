@@ -1,0 +1,15 @@
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\bin\Debug\net6.0\footballAssignment.exe
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\bin\Debug\net6.0\footballAssignment.deps.json
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\bin\Debug\net6.0\footballAssignment.runtimeconfig.json
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\bin\Debug\net6.0\footballAssignment.dll
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\bin\Debug\net6.0\footballAssignment.pdb
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.csproj.AssemblyReference.cache
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.AssemblyInfoInputs.cache
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.AssemblyInfo.cs
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.dll
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\refint\footballAssignment.dll
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.pdb
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\footballAssignment.genruntimeconfig.cache
+C:\Users\Dell 7480\Desktop\C#\footballAssignment\obj\Debug\net6.0\ref\footballAssignment.dll
