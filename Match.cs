@@ -3,17 +3,30 @@ using System;
 
 public class Match {
 
-    Team _teamA;
-    Team _teamB;
+    public Round Round {get; set;}
 
-    int _teamA_Score;
-    int _teamB_Score;
+    public Team TeamA {get; set;}
 
-    public string A_Score {
-        get; set;
+    public Team TeamB {get; set;}
+
+
+    public int Ascore {get; set;}
+    
+    public int Bscore {get; set;}
+
+    public Match (Team teamA, Team teamB, int aScore, int bScore){
+        TeamA = teamA;
+        TeamB = teamB;
+        Ascore = aScore;
+        Bscore = bScore;
     }
-   
-     public string B_Score {
-        get; set;
+
+    public void UpdateTable(){ //den skal sende værdier i en tuble
+        //return team_A
+        //return team_B
+        //return A_socre
+        //return B_score
+        //table uses these values to update it self
+
     }
 }
