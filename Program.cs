@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.IO;
 
 class Program {
 
@@ -7,6 +8,8 @@ class Program {
         print("hello");
 
         Table table = new();
+
+
 
         Team t1 = new("Barcelona");
         Team t2 = new ("Inter");
@@ -16,7 +19,12 @@ class Program {
 
         table.Teams.Add(t1);
         table.Teams.Add(t2);
-        table.Teams.Add(t3);    
+        table.Teams.Add(t3);  
+        
+        //Program can write to file
+        updateTabelToFile(table.Teams);
+
+
 
         table.Display();
 
@@ -24,7 +32,21 @@ class Program {
 
         table.UpdateTable(m1);
 
+        updateTabelToFile(table.Teams);
         
+    }
+
+    static void updateTabelToFile (List<Team> teams){
+
+        string FilePath_TeamsCSV = "teams.csv";
+
+        using(StreamWriter streamWriter = new(FilePath_TeamsCSV)){
+
+            foreach (Team team in teams)
+            {
+                streamWriter.WriteLine(team.ToString());
+            }
+        }
     }
 
 

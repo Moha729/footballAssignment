@@ -13,4 +13,12 @@ public class Team {
         Name = name;
         Statistics = new List<int>{0, 0, 0};
     }
+
+    public override string ToString() {
+        string stats = "";
+        foreach (int stat in Statistics)
+            stats += ","+stat;
+        
+        return $"{Name}{stats}";
+    }
 }
