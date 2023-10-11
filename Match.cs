@@ -3,7 +3,7 @@ using System;
 
 public class Match {
 
-    public Round Round {get; set;}
+//    public Round Round {get; set;}
 
     public Team TeamA {get; set;}
 
@@ -19,6 +19,13 @@ public class Match {
         TeamB = teamB;
         Ascore = aScore;
         Bscore = bScore;
+    }
+
+    public int RoundCount {get; set;}
+    public Match (int roundCount, Team teamA, Team teamB){
+        RoundCount = roundCount;
+        TeamA = teamA;
+        TeamB = teamB;
     }
 
     public void UpdateTable(){ //den skal sende værdier i en tuble
